@@ -1,0 +1,78 @@
+
+
+.cart-container {
+  width: 100%;
+  min-height: 667px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.cart-container h1 {
+  font-family: 'Sansita One', sans-serif;
+  font-size: 1.8rem;
+  color: #F56B9A;
+  font-weight: 500;
+  text-shadow: 1px 1px 0px #000000;
+  text-align: center;
+}
+
+.cart-container ul {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.Total {
+  margin: 0;
+  font-family: Fira Sans;
+  font-weight: 600;
+  line-height: 38.6px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 1px 1px 0px #F56B9A;
+  font-size: 2rem;
+  
+}
+
+.pris {
+  margin: 0;
+  color: rgba(255, 255, 255, 1);
+  font-family: Fira Sans;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+
+.sendButton {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2rem;
+  background: rgba(55, 174, 171, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: Fira Sans;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 1.3rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
+.bottom-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+}

@@ -1,0 +1,42 @@
+.event-wrapper {
+    color: white;
+    width: 100%;
+    min-height: 667px;
+    
+    
+}
+
+.page-title {
+    color: #F56B9A;
+    text-align: center;
+    font-family: 'Sansita One';
+    font-size: 2.4rem;
+    font-weight: 800;
+    text-shadow: 1px 1px 0px #000000;
+   
+}
+
+.title-container {
+    width: 100%;
+    padding-bottom: 1.8rem;
+    text-align: center;
+    
+}
+
+.events-container {
+    width: 100%;
+}
+
+
+
+.page-input {
+    background: #FFFFFF1A;
+    border: none;
+    border-radius:3px;
+    width: 85%;
+    height: 40px;
+   
+   
+}
+
+

@@ -1,0 +1,113 @@
+.ticket-page {
+    display: grid;
+    align-items: center;
+    width: 100%;
+    min-height: 667px;
+    background: linear-gradient(to bottom, #E9659A, transparent);
+}
+
+.ticketsl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    height: 100%;
+}
+
+.ticket-card {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: 0.25rem;
+}
+
+
+.ticket-card h2 {
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    margin-top: 0.6rem;
+    padding-left: 0.8rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px dotted rgba(0, 0, 0, 0.4);
+}
+
+
+.ticket-where {
+    padding-left: 0.8rem;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 2.5rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+.ticket-what {
+    padding: 0.8rem;
+    margin: 0;
+    font-family: Fira Sans;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.dotted-box-container {
+    padding-top: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    border-top: 2px dotted rgba(0, 0, 0, 0.4);
+    border-bottom: 2px dotted rgba(0, 0, 0, 0.4);
+}
+
+.dotted-box-container p {
+    padding: 0;
+    margin-left: 0.8rem;
+}
+.WFT {
+    font-family: Fira Sans;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    
+
+
+}
+
+.receiptcode {
+    font-size: 90px;
+    font-family: 'Libre Barcode 128';
+    text-align: center;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+
+.receiptid {
+    text-align: center;
+    margin: 0;
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+
+.ticketsl {
+    overflow-y: hidden;
+    width: 100%; 
+  }
+  
+  .ticketsl > div {
+    width: 100%; 
+  }
+  
